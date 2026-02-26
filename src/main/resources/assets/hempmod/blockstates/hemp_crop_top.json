@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "top_age=0": { "model": "hempmod:block/hemp_top_stage4" },
+    "top_age=1": { "model": "hempmod:block/hemp_top_stage5" },
+    "top_age=2": { "model": "hempmod:block/hemp_top_stage6" },
+    "top_age=3": { "model": "hempmod:block/hemp_top_stage7" }
+  }
+}

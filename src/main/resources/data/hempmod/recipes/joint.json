@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  P",
+    "BBB",
+    "   "
+  ],
+  "key": {
+    "B": { "item": "hempmod:buds" },
+    "P": { "item": "minecraft:paper" }
+  },
+  "result": {
+    "item": "hempmod:joint",
+    "count": 3
+  }
+}

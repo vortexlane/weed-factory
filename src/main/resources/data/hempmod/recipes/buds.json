@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "hempmod:hemp_fiber" },
+    { "item": "minecraft:shears" }
+  ],
+  "result": {
+    "item": "hempmod:buds",
+    "count": 3
+  }
+}
