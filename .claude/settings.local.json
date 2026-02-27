@@ -1,7 +1,7 @@
 {
   "permissions": {
     "allow": [
-      "Bash(./gradlew build:*)"
+      "Bash(./gradlew compileJava:*)"
     ]
   }
 }

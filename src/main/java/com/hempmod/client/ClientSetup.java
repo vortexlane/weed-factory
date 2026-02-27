@@ -1,7 +1,10 @@
 package com.hempmod.client;
 
 import com.hempmod.HempMod;
+import com.hempmod.client.screen.GeneticTableScreen;
 import com.hempmod.registry.ModBlocks;
+import com.hempmod.screen.ModMenuTypes;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.api.distmarker.Dist;
@@ -27,6 +30,9 @@ public class ClientSetup {
                     ModBlocks.HEMP_CROP_TOP.get(),
                     RenderType.cutout()
             );
+
+            // Регистрация GUI
+            MenuScreens.register(ModMenuTypes.GENETIC_TABLE_MENU.get(), GeneticTableScreen::new);
         });
     }
 }

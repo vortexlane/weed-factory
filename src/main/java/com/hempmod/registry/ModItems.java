@@ -30,4 +30,11 @@ public class ModItems {
 
     public static final RegistryObject<Item> BUDS =
             ITEMS.register("buds", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> GENETIC_TABLE =
+            ITEMS.register("genetic_table",
+                    () -> new net.minecraft.world.item.BlockItem(
+                            ModBlocks.GENETIC_TABLE.get(),
+                            new Item.Properties()
+                    ));
 }
