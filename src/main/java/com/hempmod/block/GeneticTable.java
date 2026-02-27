@@ -84,5 +84,4 @@ public class GeneticTable extends BaseEntityBlock {
         return createTickerHelper(pBlockEntityType, com.hempmod.registry.ModBlockEntities.GENETIC_TABLE.get(),
                 GeneticTableBlockEntity::tick);
     }
-public class GeneticTable {
 }
