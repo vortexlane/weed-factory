@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "hempmod:block/composter_bottom",
+    "top": "hempmod:block/composter_top",
+    "side": "hempmod:block/composter_side"
+  }
+}

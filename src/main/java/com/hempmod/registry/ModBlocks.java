@@ -1,6 +1,7 @@
 package com.hempmod.registry;
 
 import com.hempmod.HempMod;
+import com.hempmod.block.GeneticTable;
 import com.hempmod.block.HempCropBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.DeferredRegister;
@@ -22,4 +23,7 @@ public class ModBlocks {
                                     .noCollission()
                                     .instabreak()
                     ));
+
+    public static final RegistryObject<Block> GENETIC_TABLE =
+            BLOCKS.register("genetic_table", GeneticTable::new);
 }
