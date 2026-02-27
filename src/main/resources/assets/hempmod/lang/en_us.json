@@ -4,5 +4,6 @@
   "item.hempmod.hemp_fiber": "Hemp",
   "item.hempmod.joint": "Joint",
   "item.hempmod.buds": "Buds",
-  "effect.hempmod.high": "High"
+  "effect.hempmod.high": "High",
+  "creative_tab.hempmod.weed_factory": "WeedFactory"
 }

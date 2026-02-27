@@ -1,6 +1,7 @@
 package com.hempmod;
 
 import com.hempmod.registry.ModBlocks;
+import com.hempmod.registry.ModCreativeTabs;
 import com.hempmod.registry.ModEffects;
 import com.hempmod.registry.ModItems;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -16,5 +17,6 @@ public class HempMod {
         ModBlocks.BLOCKS.register(bus);
         ModItems.ITEMS.register(bus);
         ModEffects.EFFECTS.register(bus);
+        ModCreativeTabs.CREATIVE_MODE_TABS.register(bus);
     }
 }
