@@ -3,6 +3,7 @@ package com.hempmod.registry;
 import com.hempmod.HempMod;
 import com.hempmod.block.GeneticTable;
 import com.hempmod.block.HempCropBlock;
+import com.hempmod.block.HempPlanks;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -26,4 +27,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> GENETIC_TABLE =
             BLOCKS.register("genetic_table", GeneticTable::new);
+
+    public static final RegistryObject<Block> HEMP_PLANKS =
+            BLOCKS.register("hemp_planks", HempPlanks::new);
 }

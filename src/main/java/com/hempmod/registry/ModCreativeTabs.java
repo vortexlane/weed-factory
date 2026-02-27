@@ -21,6 +21,8 @@ public class ModCreativeTabs {
                         output.accept(ModItems.HEMP_SEEDS.get());
                         output.accept(ModItems.BUDS.get());
                         output.accept(ModItems.JOINT.get());
+                        output.accept(ModItems.HEMP_PLANKS.get());
+                        output.accept(ModItems.GENETIC_TABLE.get());
                     })
                     .build());
 }

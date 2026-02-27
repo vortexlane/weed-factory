@@ -37,4 +37,11 @@ public class ModItems {
                             ModBlocks.GENETIC_TABLE.get(),
                             new Item.Properties()
                     ));
+
+    public static final RegistryObject<Item> HEMP_PLANKS =
+            ITEMS.register("hemp_planks",
+                    () -> new net.minecraft.world.item.BlockItem(
+                            ModBlocks.HEMP_PLANKS.get(),
+                            new Item.Properties()
+                    ));
 }
