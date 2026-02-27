@@ -5,5 +5,6 @@
   "item.hempmod.joint": "Joint",
   "item.hempmod.buds": "Buds",
   "block.hempmod.genetic_table": "Genetic Table",
-  "effect.hempmod.high": "High"
+  "effect.hempmod.high": "High",
+  "creative_tab.hempmod.weed_factory": "WeedFactory"
 }

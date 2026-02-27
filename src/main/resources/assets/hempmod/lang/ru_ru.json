@@ -5,5 +5,6 @@
   "item.hempmod.joint": "Косяк",
   "item.hempmod.buds": "План",
   "block.hempmod.genetic_table": "Генетический стол",
-  "effect.hempmod.high": "Приход"
+  "effect.hempmod.high": "Приход",
+  "creative_tab.hempmod.weed_factory": "WeedFactory"
 }
